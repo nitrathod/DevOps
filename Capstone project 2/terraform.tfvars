@@ -1,0 +1,10 @@
+aws_region         = "us-east-1"
+project_name       = "Capstone-project-2"
+vpc_cidr           = "10.0.0.0/16"
+public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs = ["10.0.3.0/24", "10.0.4.0/24"]
+availability_zones = ["us-east-1a", "us-east-1b"]
+allowed_ssh_cidrs  = ["0.0.0.0/0"]  # Replace YOUR_IP_ADDRESS
+ami_id             = "ami-0866a3c8686eaeeba"  # Replace with valid AMI ID
+instance_type      = "t2.medium"
+key_name           = "C49"
